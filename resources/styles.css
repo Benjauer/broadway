@@ -40,8 +40,20 @@ nav li {
 .impressum {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   color: white;
-  display: inline-flex;
+  display: flex;
   margin: auto 15px auto 15px;
+
+}
+
+.impressum p {
+  text-decoration: underline;
+  margin: auto 5px auto 2px;
+}
+
+#copyright {
+  text-decoration: none;
+  font-size: 11px;
+  background-color: dimgray;
 }
 
 /* font-weight: bold */
